@@ -16,22 +16,22 @@ public class runner
         }
         //Prints height of tree in terms of edges
         System.out.println("Edge height " + (tree.height()-1));
-        //Prints level order transversal
+        //Prints level order traversal
         System.out.println("Level order");
         tree.level();
-        //Prints reverse of level order transversal
+        //Prints reverse of level order traversal
         System.out.println("\nReverse level order");
         tree.revlevel();
-        //Prints level order transversal with data aligned right to left
+        //Prints level order traversal with data aligned right to left
         System.out.println("\nData left to right in level order");
         tree.rtllevel();
         //Prints tree levels spirally
         System.out.println("\nSpiral printing");
         tree.spiral();
-        //Prints preorder transversal
+        //Prints preorder traversal
         System.out.println("\nPrints in order");
         tree.preorder();
-        //Prints postorder transversal
+        //Prints postorder traversal
         System.out.println("\nPrints post order");
         tree.postorder();
         sc.close();
