@@ -75,9 +75,12 @@ public class BinarySearchTree
         {
             return;
         }
-        System.out.print(root.data + " ");
-        printPreOrder(root.left);
-        printPreOrder(root.right);
+        else
+        {
+             System.out.print(root.data + " ");
+             printPreOrder(root.left);
+             printPreOrder(root.right);
+        }
     }
     void postorder()
     {
@@ -90,9 +93,12 @@ public class BinarySearchTree
         {
             return;
         }
-        printPostOrder(root.left);
-        printPostOrder(root.right);
-        System.out.print(root.data + " ");
+        else
+        {
+            printPostOrder(root.left);
+            printPostOrder(root.right);
+            System.out.print(root.data + " ");
+        }
     }
     void inorder()
     {
