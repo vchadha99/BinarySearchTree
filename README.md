@@ -3,7 +3,7 @@
 
 ## Call the below given methods by creating an object of BinarySearchTree class in main method present in runner class
 
-# Methods
+## Methods
 
 #### insert(int) - call this method by passing integer value it will create new data node in tree 
 #### height() - this method will return height(in terms of node) of tree
